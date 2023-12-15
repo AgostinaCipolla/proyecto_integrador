@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #fe64c2, #ff85b7, #f7aab9);
+}
+
+.product-upload-container {
+  background: linear-gradient(to bottom, #fe64c2, #ff85b7, #f7aab9);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: start;
+
+}
+
+.product-upload-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-upload-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-upload-form label {
+  margin-top: 10px;
+}
+
+.product-upload-form input,
+.product-upload-form textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc; /* borde de los recuadros*/
+  border-radius: 5px;
+  width: 100%;
+}
+
+.product-upload-form button {
+  background-color: #fc4cb9;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-upload-form button:hover {
+  background-color: #ED8181;;
+}
+
+.imagenes {
+  background-color: #ffffff;
+}
